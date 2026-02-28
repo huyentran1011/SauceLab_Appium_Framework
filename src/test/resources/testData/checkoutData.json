@@ -1,0 +1,33 @@
+{
+  "LoginAccount": {
+    "username": "bod@example.com",
+    "password": "10203040"
+  },
+  "Products": [
+    {
+      "productName": "Sauce Labs Backpack",
+      "variations": [
+        {
+          "color": "Blue",
+          "quantity": 1,
+          "unitPrice": "29.99"
+        }
+      ]
+    }
+  ],
+  "ShippingInfo": {
+    "fullName": "Lisa Woods",
+    "address1": "2109 Davis Hwy",
+    "address2": "Apt E908",
+    "city": "Pensacola",
+    "state": "Florida",
+    "country": "United State",
+    "zipcode": "32508"
+  },
+  "BillingInfo": {
+    "fullName": "Lisa Woods",
+    "cardNumber": "234642999087",
+    "expDate": "11/29",
+    "securityCode": "209"
+  }
+}

@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Check out success.","30767","TC01_Checkout","OrangeHRML Automation Test","2026-02-27","passed","2026-02-27","testcases.Checkout","Android Simulator","testcases.Checkout","TC01_Checkout"
+"Login success with correct Username and Password.","4169","TC03_loginSuccess","OrangeHRML Automation Test","2026-02-27","passed","2026-02-27","testcases.LoginLogout","Android Simulator","testcases.LoginLogout","TC03_loginSuccess"
+"Login without Username.","2595","TC01_loginFailedWithoutUsername","OrangeHRML Automation Test","2026-02-27","passed","2026-02-27","testcases.LoginLogout","Android Simulator","testcases.LoginLogout","TC01_loginFailedWithoutUsername"
+"Add different type of products to Shopping Card.","89328","TC02_AddMultipleProductTypeToCard","OrangeHRML Automation Test","2026-02-27","passed","2026-02-27","testcases.AddProducts","iOS Simulator","testcases.AddProducts","TC02_AddMultipleProductTypeToCard"
+"Add the same product with different color and quantity to Shopping Card.","9370","TC01_AddSingleProductTypeToCart","OrangeHRML Automation Test","2026-02-27","passed","2026-02-27","testcases.AddProducts","iOS Simulator","testcases.AddProducts","TC01_AddSingleProductTypeToCart"
+"Logout Success.","7924","TC04_logoutSuccess","OrangeHRML Automation Test","2026-02-27","passed","2026-02-27","testcases.LoginLogout","Android Simulator","testcases.LoginLogout","TC04_logoutSuccess"
+"Login without Password.","2545","TC02_loginFailedWithoutPassword","OrangeHRML Automation Test","2026-02-27","passed","2026-02-27","testcases.LoginLogout","Android Simulator","testcases.LoginLogout","TC02_loginFailedWithoutPassword"

@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OrangeHRML Automation Test" verbose="1">
+    <listeners>
+        <listener class-name="reportConfigs.AllureListener"/>
+    </listeners>
+
+    <test name="Android Simulator">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="automationName" value="UiAutomator2"/>
+        <parameter name="server" value="http://127.0.0.1"/>
+        <parameter name="port" value="4723"/>
+        <parameter name="appName" value="mda-2.2.0-25.apk"/>
+        <classes>
+            <class name="testcases.Checkout"/>
+            <class name="testcases.LoginLogout"/>
+        </classes>
+    </test>
+
+    <test name="iOS Simulator">
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="deviceName" value="iPhone 17"/>
+        <parameter name="automationName" value="XCUITest"/>
+        <parameter name="server" value="http://127.0.0.1"/>
+        <parameter name="port" value="4723"/>
+        <parameter name="appName" value="MyDemoApp.app"/>
+        <classes>
+            <class name="testcases.AddProducts"/>
+        </classes>
+    </test>
+</suite>
