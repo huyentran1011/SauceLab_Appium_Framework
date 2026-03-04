@@ -24,5 +24,7 @@ public class PageGenerator {
         return new CheckoutPage(driver);
     }
 
+    public static GeoLocationPage getGeoLocationPage(AppiumDriver driver){ return new GeoLocationPage(driver);}
 
+    public static AboutPage getAboutPage(AppiumDriver driver){ return new AboutPage(driver);}
 }

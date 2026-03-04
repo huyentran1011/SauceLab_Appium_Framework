@@ -15,6 +15,7 @@
         <classes>
             <class name="testcases.Checkout"/>
             <class name="testcases.LoginLogout"/>
+            <class name="testcases.AboutInfo"/>
         </classes>
     </test>
 

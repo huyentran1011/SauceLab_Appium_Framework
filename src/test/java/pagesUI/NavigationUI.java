@@ -38,7 +38,7 @@ public class NavigationUI {
     );
 
     public static final Map<Platform, String> ABOUT_MENU_ITEM = Map.of(
-            Platform.ANDROID, "uiautomator=new UiSelector().text('About')",
+            Platform.ANDROID, "xpath=//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']",
             Platform.IOS, "accessibilityId=About-menu-item"
     );
     public static final Map<Platform, String> FINGER_PRINT_MENU_ITEM = Map.of(

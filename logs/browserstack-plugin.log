@@ -590,3 +590,19 @@
 05:28:13.877 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
 06:17:39.045 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
 06:17:39.052 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+14:15:31.675 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+14:15:31.685 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+06:16:14.057 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+06:16:14.063 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+06:16:53.079 [ApplicationImpl pooled thread 768] INFO  c.b.s.l.BrowserStackRunExtension - testng
+06:16:53.080 [ApplicationImpl pooled thread 768] INFO  com.browserstack.sdk.utils.Helpers - null
+06:16:53.080 [ApplicationImpl pooled thread 768] INFO  c.b.s.l.BrowserStackRunExtension - Agent path: null
+06:18:43.483 [ApplicationImpl pooled thread 762] INFO  c.b.s.l.BrowserStackRunExtension - testng
+06:18:43.483 [ApplicationImpl pooled thread 762] INFO  com.browserstack.sdk.utils.Helpers - null
+06:18:43.484 [ApplicationImpl pooled thread 762] INFO  c.b.s.l.BrowserStackRunExtension - Agent path: null
+06:23:43.776 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+06:23:43.783 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+06:23:57.910 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+06:23:57.918 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update
+09:10:31.837 [AWT-EventQueue-0] INFO  c.b.sdk.actions.DisableBrowserStack - Setting disable browserstack run update
+09:10:31.842 [AWT-EventQueue-0] INFO  c.b.sdk.actions.EnableBrowserStack - Setting enable browserstack run update

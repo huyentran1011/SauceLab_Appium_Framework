@@ -112,4 +112,15 @@ public class NavigationMenu extends BasePage {
         }
     }
 
+    @Step("Access to GeoLocation page")
+    public void clickOnGeoLocationMenu(){
+        String locator = NavigationUI.GEO_LOCATION_MENU_ITEM.get(platform);
+        clickOnElement(driver, locator);
+    }
+
+    @Step("Access to About page")
+    public void clickOnAboutMenu(){
+        String locator = NavigationUI.ABOUT_MENU_ITEM.get(platform);
+        clickOnElement(driver, locator);
+    }
 }
