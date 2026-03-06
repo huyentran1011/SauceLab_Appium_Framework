@@ -78,4 +78,5 @@ public class NavigationUI {
             Platform.ANDROID, "id=android:id/button1",
             Platform.IOS, ""
     );
+
 }

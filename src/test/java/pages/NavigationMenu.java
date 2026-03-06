@@ -123,4 +123,6 @@ public class NavigationMenu extends BasePage {
         String locator = NavigationUI.ABOUT_MENU_ITEM.get(platform);
         clickOnElement(driver, locator);
     }
+
+
 }

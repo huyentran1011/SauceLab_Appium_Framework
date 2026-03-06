@@ -16,6 +16,7 @@
             <class name="testcases.Checkout"/>
             <class name="testcases.LoginLogout"/>
             <class name="testcases.AboutInfo"/>
+            <class name="testcases.SortProducts"/>
         </classes>
     </test>
 
@@ -28,6 +29,7 @@
         <parameter name="appName" value="MyDemoApp.app"/>
         <classes>
             <class name="testcases.AddProducts"/>
+            <class name="testcases.SortProducts"/>
         </classes>
     </test>
 </suite>

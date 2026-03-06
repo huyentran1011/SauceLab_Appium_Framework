@@ -12,4 +12,31 @@ public class ProductsPageUI {
             Platform.ANDROID, "xpath=//android.view.ViewGroup[android.widget.TextView[@content-desc='Product Title' and @text='%s']]/android.widget.ImageView[@content-desc='Product Image']",
             Platform.IOS, "xpath=//XCUIElementTypeStaticText[@name='Product Name' and contains(@label,'%s')]"
     );
+
+    public static final Map<Platform, String>  SORT_PRODUCTS_BTN = Map.of(
+            Platform.ANDROID, "id=com.saucelabs.mydemoapp.android:id/sortIV",
+            Platform.IOS, "xpath=//XCUIElementTypeButton[@name='Button']"
+    );
+
+    public static final Map<Platform, String> ASCENDING_BY_NAME_OPTION = Map.of(
+            Platform.ANDROID, "accessibilityId=Ascending order by name",
+            Platform.IOS, "xpath=//XCUIElementTypeButton[@name='Name - Ascending']"
+    );
+
+    public static final Map<Platform, String> DESCENDING_BY_NAME_OPTION = Map.of(
+            Platform.ANDROID, "accessibilityId=Descending order by name",
+            Platform.IOS, "xpath=//XCUIElementTypeButton[@name='Name - Descending']"
+    );
+
+    public static final Map<Platform, String> ASCENDING_BY_PRICE_OPTION = Map.of(
+            Platform.ANDROID, "accessibilityId=Ascending order by price",
+            Platform.IOS, "xpath=//XCUIElementTypeButton[@name='Price - Ascending']"
+    );
+
+    public static final Map<Platform, String> DESCENDING_BY_PRICE_OPTION = Map.of(
+            Platform.ANDROID, "accessibilityId=Descending order by price",
+            Platform.IOS, "xpath=//XCUIElementTypeButton[@name='Price - Descending']"
+    );
+
+
 }
